@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
@@ -22,6 +31,7 @@ body {
   overflow: hidden;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  gap: 0.5rem;
 }
 
 .cover-photo {
@@ -62,6 +72,15 @@ body {
   border-radius: 20px;
   font-size: 12px;
   margin-right: 5px;
+}
+
+.tags {
+  margin: 0.7rem 0;
+}
+
+.bio {
+  margin-bottom: 0.7rem;
+  text-align: justify;
 }
 
 .team {
